@@ -1,0 +1,13 @@
+# ── 运行时数据：含真实会话内容，绝不可上传 ──
+backup/
+queue.json
+
+# ── 依赖与缓存 ──
+node_modules/
+.pnpm-store/
+
+# ── 临时与日志 ──
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

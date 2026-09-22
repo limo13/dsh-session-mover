@@ -1,0 +1,7 @@
+# dsh-session-mover bundle patch: mounts the mover over the web profile.
+# Host half registers /api/dsh-session-mover; client half contributes the
+# "Move to workspace" action on the session header.
+
+- insert:
+    - id: dsh-session-mover
+      name: 'dsh-session-mover'
